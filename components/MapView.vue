@@ -11,7 +11,7 @@ const MAP_KEY = "leaflet-map";
 const TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 const ATTRIBUTION =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-const DEFAULT_CENTER: L.LatLngExpression = [51.505, -0.09];
+const DEFAULT_CENTER: L.LatLngExpression = [43.6532, -79.3832];
 const DEFAULT_ZOOM = 13;
 
 const mapEl = ref<HTMLElement | null>(null);
