@@ -201,7 +201,7 @@ function closeExportMenu() {
 
 .export-menu__dropdown {
   position: absolute;
-  top: calc(100% + 4px);
+  top: calc(100%);
   right: 0;
   background: #fff;
   border: 1px solid #e5e7eb;
